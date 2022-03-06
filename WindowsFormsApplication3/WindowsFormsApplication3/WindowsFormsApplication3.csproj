@@ -1,0 +1,1112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9717AD05-35D1-4FFA-A010-FC3D7B0E08AA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication3</RootNamespace>
+    <AssemblyName>Gestion  Rubricas</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>C:\Users\marcos\Desktop\rubricas %282%29\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/WindowsFormsApplication3/</UpdateUrl>
+    <PublisherName>marcos elias paz goncheff</PublisherName>
+    <ApplicationRevision>14</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>554B2F33B1005BB50B1DCCA9815AAABFCB4DEA69</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsFormsApplication3_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>keditbookmarks.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>WindowsFormsApplication3.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="altaclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="altaclientes.Designer.cs">
+      <DependentUpon>altaclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="altatipodeusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="altatipodeusuario.Designer.cs">
+      <DependentUpon>altatipodeusuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="articulos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="articulos.Designer.cs">
+      <DependentUpon>articulos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BAJACLIENTES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BAJACLIENTES.Designer.cs">
+      <DependentUpon>BAJACLIENTES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bajasestudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bajasestudio.Designer.cs">
+      <DependentUpon>Bajasestudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buscarcliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscarcliente.Designer.cs">
+      <DependentUpon>buscarcliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buscarUSUARIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscarUSUARIO.Designer.cs">
+      <DependentUpon>buscarUSUARIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buscarlibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscarlibro.Designer.cs">
+      <DependentUpon>buscarlibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cargatipoempresas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cargatipoempresas.Designer.cs">
+      <DependentUpon>cargatipoempresas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="clientesporestudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clientesporestudio.Designer.cs">
+      <DependentUpon>clientesporestudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaclientesporfactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultaclientesporfactura.Designer.cs">
+      <DependentUpon>consultaclientesporfactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultarContacto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultarContacto.Designer.cs">
+      <DependentUpon>consultarContacto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultarestudio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultarestudio.Designer.cs">
+      <DependentUpon>consultarestudio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultarsociedad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="consultarsociedad.Designer.cs">
+      <DependentUpon>consultarsociedad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Database3DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database3DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dataclientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dataclientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataGridViewCellFormattingEvent.cs" />
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet2.cs">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="datasetcomprobantes.cs">
+      <DependentUpon>datasetcomprobantes.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="datasetcomprobantes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>datasetcomprobantes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="detallelibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detallelibros.Designer.cs">
+      <DependentUpon>detallelibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnviodeMails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnviodeMails.Designer.cs">
+      <DependentUpon>EnviodeMails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ESTUDIOSPORCLIENTE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ESTUDIOSPORCLIENTE.Designer.cs">
+      <DependentUpon>ESTUDIOSPORCLIENTE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="facturas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>facturas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form6.Designer.cs">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formestudios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formestudios.Designer.cs">
+      <DependentUpon>Formestudios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet141.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet141.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet19.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet19.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet20.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet21.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet22.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet22.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet23.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet23.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet24.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet24.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet25.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet25.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet26.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet26.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet27.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet27.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestionrubricasDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestionrubricasDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GridViewRowEventArgs.cs" />
+    <Compile Include="hisoricoporcliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hisoricoporcliente.Designer.cs">
+      <DependentUpon>hisoricoporcliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="listadocompletoestudiosclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listadocompletoestudiosclientes.Designer.cs">
+      <DependentUpon>listadocompletoestudiosclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificaciondeclientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificaciondeclientes.Designer.cs">
+      <DependentUpon>modificaciondeclientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modificacionestudios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modificacionestudios.Designer.cs">
+      <DependentUpon>modificacionestudios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nuevoestudios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nuevoestudios.Designer.cs">
+      <DependentUpon>nuevoestudios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pedidosespera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pedidosespera.Designer.cs">
+      <DependentUpon>pedidosespera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportefactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportefactura.Designer.cs">
+      <DependentUpon>reportefactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service1.Designer.cs">
+      <DependentUpon>Service1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="splashinicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="splashinicio.Designer.cs">
+      <DependentUpon>splashinicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tipodeempresas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tipodeempresas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="tipousuarios.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tipousuarios.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="altaclientes.resx">
+      <DependentUpon>altaclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="altatipodeusuario.resx">
+      <DependentUpon>altatipodeusuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="articulos.resx">
+      <DependentUpon>articulos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BAJACLIENTES.resx">
+      <DependentUpon>BAJACLIENTES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bajasestudio.resx">
+      <DependentUpon>Bajasestudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscarcliente.resx">
+      <DependentUpon>buscarcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscarUSUARIO.resx">
+      <DependentUpon>buscarUSUARIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscarlibro.resx">
+      <DependentUpon>buscarlibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cargatipoempresas.resx">
+      <DependentUpon>cargatipoempresas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clientesporestudio.resx">
+      <DependentUpon>clientesporestudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultaclientesporfactura.resx">
+      <DependentUpon>consultaclientesporfactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultarContacto.resx">
+      <DependentUpon>consultarContacto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultarestudio.resx">
+      <DependentUpon>consultarestudio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="consultarsociedad.resx">
+      <DependentUpon>consultarsociedad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detallelibros.resx">
+      <DependentUpon>detallelibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnviodeMails.resx">
+      <DependentUpon>EnviodeMails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ESTUDIOSPORCLIENTE.resx">
+      <DependentUpon>ESTUDIOSPORCLIENTE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.af-ZA.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.af.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form6.resx">
+      <DependentUpon>Form6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formestudios.resx">
+      <DependentUpon>Formestudios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hisoricoporcliente.resx">
+      <DependentUpon>hisoricoporcliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="infoclientes.rdlc" />
+    <EmbeddedResource Include="listadocompletoestudiosclientes.resx">
+      <DependentUpon>listadocompletoestudiosclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificaciondeclientes.resx">
+      <DependentUpon>modificaciondeclientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modificacionestudios.resx">
+      <DependentUpon>modificacionestudios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nuevoestudios.resx">
+      <DependentUpon>nuevoestudios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pedidosespera.resx">
+      <DependentUpon>pedidosespera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report1.rdlc" />
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="reportefactura.resx">
+      <DependentUpon>reportefactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashinicio.resx">
+      <DependentUpon>splashinicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Database3DataSet.xsc">
+      <DependentUpon>Database3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Database3DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Database3DataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Database3DataSet.xss">
+      <DependentUpon>Database3DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dataclientes.xsc">
+      <DependentUpon>dataclientes.xsd</DependentUpon>
+    </None>
+    <None Include="dataclientes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dataclientes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dataclientes.xss">
+      <DependentUpon>dataclientes.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsc">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet2.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+    <None Include="DataSet2.xss">
+      <DependentUpon>DataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="datasetcomprobantes.xsc">
+      <DependentUpon>datasetcomprobantes.xsd</DependentUpon>
+    </None>
+    <None Include="datasetcomprobantes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>datasetcomprobantes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="datasetcomprobantes.xss">
+      <DependentUpon>datasetcomprobantes.xsd</DependentUpon>
+    </None>
+    <None Include="facturas.xsc">
+      <DependentUpon>facturas.xsd</DependentUpon>
+    </None>
+    <None Include="facturas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>facturas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="facturas.xss">
+      <DependentUpon>facturas.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet.xsc">
+      <DependentUpon>gestionrubricasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet.xss">
+      <DependentUpon>gestionrubricasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet1.xsc">
+      <DependentUpon>gestionrubricasDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet1.xss">
+      <DependentUpon>gestionrubricasDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet10.xsc">
+      <DependentUpon>gestionrubricasDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet10.xss">
+      <DependentUpon>gestionrubricasDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet11.xsc">
+      <DependentUpon>gestionrubricasDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet11.xss">
+      <DependentUpon>gestionrubricasDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet12.xsc">
+      <DependentUpon>gestionrubricasDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet12.xss">
+      <DependentUpon>gestionrubricasDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet13.xsc">
+      <DependentUpon>gestionrubricasDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet13.xss">
+      <DependentUpon>gestionrubricasDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet141.xsc">
+      <DependentUpon>gestionrubricasDataSet141.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet141.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet141.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet141.xss">
+      <DependentUpon>gestionrubricasDataSet141.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet15.xsc">
+      <DependentUpon>gestionrubricasDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet15.xss">
+      <DependentUpon>gestionrubricasDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet16.xsc">
+      <DependentUpon>gestionrubricasDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet16.xss">
+      <DependentUpon>gestionrubricasDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet17.xsc">
+      <DependentUpon>gestionrubricasDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet17.xss">
+      <DependentUpon>gestionrubricasDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet18.xsc">
+      <DependentUpon>gestionrubricasDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet18.xss">
+      <DependentUpon>gestionrubricasDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet19.xsc">
+      <DependentUpon>gestionrubricasDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet19.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet19.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet19.xss">
+      <DependentUpon>gestionrubricasDataSet19.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet2.xsc">
+      <DependentUpon>gestionrubricasDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet2.xss">
+      <DependentUpon>gestionrubricasDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet20.xsc">
+      <DependentUpon>gestionrubricasDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet20.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet20.xss">
+      <DependentUpon>gestionrubricasDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet21.xsc">
+      <DependentUpon>gestionrubricasDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet21.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet21.xss">
+      <DependentUpon>gestionrubricasDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet22.xsc">
+      <DependentUpon>gestionrubricasDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet22.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet22.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet22.xss">
+      <DependentUpon>gestionrubricasDataSet22.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet23.xsc">
+      <DependentUpon>gestionrubricasDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet23.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet23.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet23.xss">
+      <DependentUpon>gestionrubricasDataSet23.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet24.xsc">
+      <DependentUpon>gestionrubricasDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet24.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet24.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet24.xss">
+      <DependentUpon>gestionrubricasDataSet24.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet25.xsc">
+      <DependentUpon>gestionrubricasDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet25.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet25.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet25.xss">
+      <DependentUpon>gestionrubricasDataSet25.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet26.xsc">
+      <DependentUpon>gestionrubricasDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet26.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet26.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet26.xss">
+      <DependentUpon>gestionrubricasDataSet26.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet27.xsc">
+      <DependentUpon>gestionrubricasDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet27.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet27.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet27.xss">
+      <DependentUpon>gestionrubricasDataSet27.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet3.xsc">
+      <DependentUpon>gestionrubricasDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet3.xss">
+      <DependentUpon>gestionrubricasDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet4.xsc">
+      <DependentUpon>gestionrubricasDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet4.xss">
+      <DependentUpon>gestionrubricasDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet5.xsc">
+      <DependentUpon>gestionrubricasDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet5.xss">
+      <DependentUpon>gestionrubricasDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet6.xsc">
+      <DependentUpon>gestionrubricasDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet6.xss">
+      <DependentUpon>gestionrubricasDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet7.xsc">
+      <DependentUpon>gestionrubricasDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet7.xss">
+      <DependentUpon>gestionrubricasDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet8.xsc">
+      <DependentUpon>gestionrubricasDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet8.xss">
+      <DependentUpon>gestionrubricasDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet9.xsc">
+      <DependentUpon>gestionrubricasDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="gestionrubricasDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestionrubricasDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestionrubricasDataSet9.xss">
+      <DependentUpon>gestionrubricasDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\ESTUDIOSPORCLIENTE.datasource" />
+    <None Include="Properties\DataSources\Form8.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication3.facturasTableAdapters.clientesTableAdapter.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication3.facturasTableAdapters.detallefacturaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication3.facturasTableAdapters.pruebaTableAdapter.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication3.facturasTableAdapters.TableAdapterManager+UpdateOrderOption.datasource" />
+    <None Include="Properties\DataSources\WindowsFormsApplication3.facturasTableAdapters.TableAdapterManager.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="tipodeempresas.xsc">
+      <DependentUpon>tipodeempresas.xsd</DependentUpon>
+    </None>
+    <None Include="tipodeempresas.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tipodeempresas.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tipodeempresas.xss">
+      <DependentUpon>tipodeempresas.xsd</DependentUpon>
+    </None>
+    <None Include="tipousuarios.xsc">
+      <DependentUpon>tipousuarios.xsd</DependentUpon>
+    </None>
+    <None Include="tipousuarios.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tipousuarios.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tipousuarios.xss">
+      <DependentUpon>tipousuarios.xsd</DependentUpon>
+    </None>
+    <None Include="WindowsFormsApplication3_ClaveTemporal.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Database2.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database2_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database2.mdf</DependentUpon>
+    </Content>
+    <Content Include="Database3.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database3_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database3.mdf</DependentUpon>
+    </Content>
+    <Content Include="Database4.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database4_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database4.mdf</DependentUpon>
+    </Content>
+    <Content Include="imag\1.jpg" />
+    <Content Include="imag\Fondos-HD-para-pc-auto.jpg" />
+    <Content Include="imag\hgf.jpg" />
+    <Content Include="imag\images.jpg" />
+    <Content Include="imag\The_King_lion_hd_wallpapers.jpg" />
+    <Content Include="keditbookmarks.ico" />
+    <Content Include="looknfeel.ico" />
+    <None Include="Resources\FACTURA.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,119 @@
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form2.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.modificacion.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form7.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form8.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Formestudios.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\RdlCompile.cache
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\RdlCompile.compiled
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl1.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.EnviodeMails.resources
+C:\Users\marcos\documents\visual studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.cargatipoempresas.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.altaclientes.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.nuevoestudios.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.altatipodeusuario.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.articulos.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pedidosespera.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.reportefactura.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.consultaclientesporfactura.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database1.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database1_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database2.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database2_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database3.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database3_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database4.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database4_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.modificaciondeclientes.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.BAJACLIENTES.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.hisoricoporcliente.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.modificacionestudios.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Bajasestudio.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.detallelibros.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form2.af-ZA.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form2.af.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.ESTUDIOSPORCLIENTE.resources
+\\MARCOS-PC\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+\\MARCOS-PC\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+\\MARCOS-PC\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form4.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.exe.config
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.exe.manifest
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.application
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.exe
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.pdb
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\af-ZA\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\af\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\af-ZA\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\af\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.exe.manifest
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.application
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.exe
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.pdb
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.listadocompletoestudiosclientes.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.clientesporestudio.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.buscarcliente.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.exe.config
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.exe
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.pdb
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database1.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database1_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database2.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database2_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database3.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database3_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database4.mdf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Database4_log.ldf
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.exe.manifest
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.application
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.exe
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\Gestion  Rubricas.pdb
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\af-ZA\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\bin\Debug\af\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.altaclientes.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.altatipodeusuario.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.articulos.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.BAJACLIENTES.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Bajasestudio.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.buscarcliente.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.cargatipoempresas.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.clientesporestudio.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.consultaclientesporfactura.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.detallelibros.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.EnviodeMails.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.ESTUDIOSPORCLIENTE.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form2.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.modificacion.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form4.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form7.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form8.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Formestudios.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.hisoricoporcliente.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.listadocompletoestudiosclientes.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.modificaciondeclientes.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.modificacionestudios.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.nuevoestudios.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pedidosespera.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.reportefactura.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.UserControl1.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form2.af-ZA.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form2.af.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\RdlCompile.cache
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\RdlCompile.compiled
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\af-ZA\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\af\Gestion  Rubricas.resources.dll
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.exe.manifest
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\Gestion  Rubricas.application
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.splashinicio.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form5.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form6.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.consultarsociedad.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.consultarContacto.resources
+C:\Users\marcos\Documents\Visual Studio 2012\Projects\WebApplication2\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.consultarestudio.resources
